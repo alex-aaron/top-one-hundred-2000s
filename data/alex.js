@@ -8,15 +8,20 @@ var alexMovies = [
     submitter: 'alex'
   },
   {
-    id: 1,
+    points: 49,
     title: 'Old Boy',
-    points: 49
+    director: 'Park Chan-wook',
+    year: 2003,
+    submitter: 'alex'
   }
-]
+];
 
 /*
 Possible movies
 
-There Will Be Blood
+1. There Will Be Blood
+
+
 
 */
+
