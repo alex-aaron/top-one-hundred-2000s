@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    console.log(alexMovies);
+    console.log(kyleMovies.length);
 });

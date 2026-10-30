@@ -1,9 +1,11 @@
 
 var alexMovies = [
   {
-    id: 0,
+    points: 50,
     title: 'There Will Be Blood',
-    points: 50
+    director: 'Paul Thomas Anderson',
+    year: 2007,
+    submitter: 'alex'
   },
   {
     id: 1,
