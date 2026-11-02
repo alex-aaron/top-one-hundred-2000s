@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     const rankingObj = getRankingObj(alexMovies, stanMovies, kyleMovies);
-
-    console.log(rankingObj);
-
     const ranking = getRanking(rankingObj);
 
     console.log(ranking);

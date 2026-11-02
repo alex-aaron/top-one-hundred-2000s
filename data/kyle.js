@@ -346,7 +346,7 @@ const kyleMovies = [
     {
         points: 1,
         title: 'The Prestige',
-        director: 'Mel Gibson',
+        director: 'Christopher Nolan',
         year: 2006,
         submitter: 'kyle'
     }
