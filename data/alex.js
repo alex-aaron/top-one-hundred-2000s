@@ -48,7 +48,29 @@ var alexMovies = [
     director: 'Spike Lee',
     year: 2000,
     submitter: 'alex'
+  },
+  {
+    points: 43,
+    title: 'The Squid and the Whale',
+    director: 'Noah Baumbach',
+    year: 2005,
+    submitter: 'alex'
+  },
+  {
+    points: 42,
+    title: 'Y Tu Mama Tambien',
+    director: 'Alfonso Cuaron',
+    year: 2001,
+    submitter: 'alex'
+  },
+  {
+    points: 41,
+    title: 'Far From Heaven',
+    director: 'Todd Haynes',
+    year: 2002, 
+    submitter: 'alex'
   }
+
 ];
 
 console.log(alexMovies.length);

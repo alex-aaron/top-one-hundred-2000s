@@ -219,16 +219,16 @@ const kyleMovies = [
     },
     {
         points: 19,
-        title: 'The Fog of War',
-        director: 'Errol Morris',
-        year: 2003,
+        title: 'Unbreakable',
+        director: 'M. Night Shyamalan',
+        year: 2000,
         submitter: 'kyle'
     },
     {
         points: 18,
-        title: 'O Brother, Where Art Thou?',
-        director: 'Joel Coen, Ethan Coen',
-        year: 2000,
+        title: 'The Fog of War',
+        director: 'Errol Morris',
+        year: 2003,
         submitter: 'kyle'
     },
     {
@@ -247,108 +247,116 @@ const kyleMovies = [
     },
     {
         points: 15,
-        title: 'Team America: World Police',
-        director: 'Trey Parker',
-        year: 2004,
-        submitter: 'kyle'
-    },
-    {
-        points: 14,
-        title: 'Donnie Darko',
-        director: 'Richard Kelly',
-        year: 2001,
-        submitter: 'kyle'
-    },
-    {
-        points: 13,
-        title: 'Fahrenheit 9/11',
-        director: 'Michael Moore',
-        year: 2004,
-        submitter: 'kyle'
-    },
-    {
-        points: 12,
-        title: 'Mystic River',
-        director: 'Clint Eastwood',
-        year: 2003,
-        submitter: 'kyle'
-    },
-    {
-        points: 11,
-        title: 'Superbad',
-        director: 'Greg Mottola',
-        year: 2007,
-        submitter: 'kyle'
-    },
-    {
-        points: 10,
-        title: 'Catch Me If You Can',
-        director: 'Steven Spielberg',
-        year: 2002,
-        submitter: 'kyle'
-    },
-    {
-        points: 9,
-        title: 'Elizabethtown',
-        director: 'Cameron Crowe',
-        year: 2005,
-        submitter: 'kyle'
-    },
-    {
-        points: 8,
-        title: 'Best in Show',
-        director: 'Christopher Guest',
-        year: 2000,
-        submitter: 'kyle'
-    },
-    {
-        points: 7,
-        title: 'City of God',
-        director: 'Fernando Meirelles',
-        year: 2003,
-        submitter: 'kyle'
-    },
-    {
-        points: 6,
-        title: 'Talk to Her',
-        director: 'Pedro Almodovar',
-        year: 2002,
-        submitter: 'kyle'
-    },
-    {
-        points: 5,
-        title: 'Closer',
-        director: 'Mike Nichols',
-        year: 2004,
-        submitter: 'kyle'
-    },
-    {
-        points: 4,
-        title: 'War of the Worlds',
-        director: 'Steven Spielberg',
-        year: 2005,
-        submitter: 'kyle'
-    },
-    {
-        points: 3,
-        title: 'Apocalypto',
-        director: 'Mel Gibson',
-        year: 2006,
-        submitter: 'kyle'
-    },
-    {
-        points: 2,
         title: 'Lord of the Rings: Fellowship of the Ring',
         director: 'Peter Jackson',
         year: 2001,
         submitter: 'kyle'
     },
     {
-        points: 1,
+        points: 14,
+        title: 'Team America: World Police',
+        director: 'Trey Parker',
+        year: 2004,
+        submitter: 'kyle'
+    },
+    {
+        points: 13,
+        title: 'Donnie Darko',
+        director: 'Richard Kelly',
+        year: 2001,
+        submitter: 'kyle'
+    },
+    {
+        points: 12,
+        title: 'Fahrenheit 9/11',
+        director: 'Michael Moore',
+        year: 2004,
+        submitter: 'kyle'
+    },
+    {
+        points: 11,
+        title: 'Mystic River',
+        director: 'Clint Eastwood',
+        year: 2003,
+        submitter: 'kyle'
+    },
+    {
+        points: 10,
+        title: 'Superbad',
+        director: 'Greg Mottola',
+        year: 2007,
+        submitter: 'kyle'
+    },
+    {
+        points: 9,
+        title: 'Catch Me If You Can',
+        director: 'Steven Spielberg',
+        year: 2002,
+        submitter: 'kyle'
+    },
+    {
+        points: 8,
+        title: 'Elizabethtown',
+        director: 'Cameron Crowe',
+        year: 2005,
+        submitter: 'kyle'
+    },
+    {
+        points: 7,
         title: 'The Prestige',
         director: 'Christopher Nolan',
         year: 2006,
         submitter: 'kyle'
+    },
+    {
+        points: 6,
+        title: 'Best in Show',
+        director: 'Christopher Guest',
+        year: 2000,
+        submitter: 'kyle'
+    },
+    {
+        points: 5,
+        title: 'City of God',
+        director: 'Fernando Meirelles',
+        year: 2003,
+        submitter: 'kyle'
+    },
+    {
+        points: 4,
+        title: 'Talk to Her',
+        director: 'Pedro Almodovar',
+        year: 2002,
+        submitter: 'kyle'
+    },
+    {
+        points: 3,
+        title: 'O Brother, Where Art Thou?',
+        director: 'Joel Coen, Ethan Coen',
+        year: 2000,
+        submitter: 'kyle'
+    },
+    {
+        points: 2,
+        title: 'War of the Worlds',
+        director: 'Steven Spielberg',
+        year: 2005,
+        submitter: 'kyle'
+    },
+    {
+        points: 1,
+        title: 'Apocalypto',
+        director: 'Mel Gibson',
+        year: 2006,
+        submitter: 'kyle'
     }
-]
+];
+
+let points = 50;
+
+for (let i = 0; i < kyleMovies.length; i++){
+    console.log(`${kyleMovies[i].title}: Expected points = ${points}, Actual = ${kyleMovies[i].points}`)
+    points--
+
+}
 
