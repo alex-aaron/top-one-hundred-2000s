@@ -65,9 +65,9 @@ var alexMovies = [
   },
   {
     points: 41,
-    title: 'Far From Heaven',
-    director: 'Todd Haynes',
-    year: 2002, 
+    title: 'The Royal Tenenbaums',
+    director: 'Wes Anderson',
+    year: 2001, 
     submitter: 'alex'
   }
 
